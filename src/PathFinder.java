@@ -222,7 +222,7 @@ public class PathFinder {
 		int y1 = input.nextInt();
 		System.out.println("Enter goal node x value: ");
 		int x2 = input.nextInt();
-		System.out.println("Enter goal node y value: ");
+		System.out.println("Enter Goal node y value: ");
 		int y2 = input.nextInt();
 		PathFinder p = new PathFinder(x1, y1, x2, y2);
 		p.showGrid();
